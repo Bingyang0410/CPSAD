@@ -1,7 +1,9 @@
 # CPSAD
 
 ## Data Link
-The dataset is uploaded into Google Drive, and the source data can be download in [here](https://drive.google.com/file/d/1Nasd7FhU0hqE7BzhwGm6UevbHMJjP4Ni/view?usp=sharing)
+The dataset is uploaded into Google Drive, and the source training data can be download in [here](https://drive.google.com/file/d/1Nasd7FhU0hqE7BzhwGm6UevbHMJjP4Ni/view?usp=sharing).
+
+To ensure the fairness of the testing, we only released the original images of the testing data in [here]() and did not release the corresponding annotated data.
 
 ## Data Description
 The data of CPSAD comes from ceramic packaging substrate samples in actual factory environments. These samples were selected during the punching hole, filling hole, and printing stage, representing actual production conditions and process changes. To ensure the accuracy and integrity of the data, we brought these samples into the laboratory environment for systematic data collection.
@@ -19,19 +21,22 @@ We follow the pipeline of [open-iad](https://github.com/M-3LAB/open-iad) to cond
 
 ### Zero-shot task
 We have reproduced the zero-shot algorithm listed in the paper for CPSAD without referring to other publicly available frameworks. The links to all source codes are as follows：
-- [SE]
-- [SE]
-- [SE]
-- [SE]
-- [SE]
-- [SE]
-- [SE]
-- [SE]
-- [SE]
-- [SE] 
+- [SE](https://zimingzhang.wordpress.com/source-code/)
+- [DASCN]()
+- [CADA](https://github.com/edgarschnfld/CADA-VAE-PyTorch)
+- [E-PGN](https://github.com/yunlongyu/EPGN)
+- [TFVAEGAN](https://github.com/akshitac8/tfvaegan)
+- [GEM-ZSL](https://github.com/osierboy/GEM-ZSL)
+- [MSDN](https://github.com/shiming-chen/MSDN)
+- [TransZero](https://github.com/shiming-chen/TransZero)
+- [CC-ZSL](https://github.com/KORIYN/CC-ZSL)
+- [Winclip](https://github.com/caoyunkang/WinClip)
+- [AnoVL](https://github.com/hq-deng/AnoVL)
+- [Anomalyclip](https://github.com/zqhang/AnomalyCLIP)
+We followed the original parameter settings in the paper and did not make any other changes.
 
 ### Few-shot task
-We have reproduced the few-shot algorithm listed in the paper for CPSAD without referring to other publicly available frameworks.
+We have reproduced the few-shot algorithm listed in the paper for CPSAD without referring to other publicly available frameworks. The concrete code used in our benchmark is uploaded in this issue.
 
 ### Fully-supervised task
 We following the pipeline of [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) to conduct our experiments about unsupervised task.
