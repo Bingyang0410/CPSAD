@@ -26,4 +26,4 @@ We have reproduced the few-shot algorithm listed in the paper for CPSAD without 
 We following the pipeline of [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) to conduct our experiments about unsupervised task.
 
 ## Licenses
-The dataset is released under the CC BY 4.0 license.
+The dataset is released under the CC BY 4.0 license. All data collection processes are authorized by the relevant companies.
