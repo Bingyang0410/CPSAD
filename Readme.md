@@ -18,7 +18,18 @@ We follow the pipeline of [anomalib](https://github.com/openvinotoolkit/anomalib
 We follow the pipeline of [open-iad](https://github.com/M-3LAB/open-iad) to conduct our experiments about semi-supervised task.
 
 ### Zero-shot task
-We have reproduced the zero-shot algorithm listed in the paper for CPSAD without referring to other publicly available frameworks.
+We have reproduced the zero-shot algorithm listed in the paper for CPSAD without referring to other publicly available frameworks. The links to all source codes are as follows：
+- [SE]
+- [SE]
+- [SE]
+- [SE]
+- [SE]
+- [SE]
+- [SE]
+- [SE]
+- [SE]
+- [SE] 
+
 ### Few-shot task
 We have reproduced the few-shot algorithm listed in the paper for CPSAD without referring to other publicly available frameworks.
 
