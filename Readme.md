@@ -6,7 +6,10 @@ The dataset is uploaded into Google Drive, and the source training data can be d
 To ensure the fairness of the testing, we only released the original images of the testing data in [here]() and did not release the corresponding annotated data.
 
 ## Data Description
-The data of CPSAD comes from ceramic packaging substrate samples in actual factory environments. These samples were selected during the punching hole, filling hole, and printing stage, representing actual production conditions and process changes. To ensure the accuracy and integrity of the data, we brought these samples into the laboratory environment for systematic data collection.
+The data of CPSAD comes from ceramic packaging substrate samples in actual factory environments. As shown in Figure 1, these samples were selected during the punching hole, filling hole, and printing stage, representing actual production conditions and process changes. To ensure the accuracy and integrity of the data, we brought these samples into the laboratory environment for systematic data collection.
+
+![Data source](dataset1.png)
+
 
 
 ## Benchmark Construction
