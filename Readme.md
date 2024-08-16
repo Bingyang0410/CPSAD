@@ -42,13 +42,17 @@ We have reproduced the zero-shot algorithm listed in the paper for CPSAD without
 - [Winclip](https://github.com/caoyunkang/WinClip)
 - [AnoVL](https://github.com/hq-deng/AnoVL)
 - [Anomalyclip](https://github.com/zqhang/AnomalyCLIP)
+- 
 We followed the original parameter settings in the paper and did not make any other changes.
 
 ### Few-shot task
 We have reproduced the few-shot algorithm listed in the paper for CPSAD without referring to other publicly available frameworks. The concrete code used in our benchmark is uploaded in this issue.
 
 ### Fully-supervised task
-We following the pipeline of [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) to conduct our experiments about unsupervised task.
+We following the pipeline of [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) to conduct our experiments about fully-supervised task.
+
+## Evaluate your own method
+We will publish the relevant evaluation code and evaluate the model online by uploading an Excel file like Kaggle or Ali Tianchi competition.
 
 ## Licenses
 The dataset is released under the CC BY 4.0 license. All data collection processes are authorized by the relevant companies.
